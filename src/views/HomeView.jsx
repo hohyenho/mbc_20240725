@@ -2,29 +2,28 @@ import React from 'react'
 import Skip from '../components/Skip'
 import Header from '../components/Header'
 import Intro from '../components/Intro'
-import Main from '../components/Main'
 import Skill from '../components/Skill'
 import Site from '../components/Site'
 import Port from '../components/Port'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import Main from '../components/Main'
 
-
-const HomeView = () => {
-  return (
-    <>
-        <Skip />
-        <Header />
-        <Main>
-            <Intro />
-            <Skill />        
-            <Port />
-            <Site />
-            <Contact />
-        </Main>        
-        <Footer />
-    </>
-  )
+const Homeview = () => {
+    return (
+        <div>
+            <Skip />
+            <Header />
+            <Main>
+                <Intro />
+                <Skill />
+                <Site />
+                <Port />
+                <Contact />
+            </Main>
+            <Footer />
+        </div>
+    )
 }
 
-export default HomeView
+export default Homeview
